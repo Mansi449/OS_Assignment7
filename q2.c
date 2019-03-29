@@ -4,7 +4,7 @@
 
 /*
     use the lpthread flag with gcc to compile this code
-    ~$ gcc -q2.c -lpthread
+    ~$ gcc q2.c -lpthread
 */
 
 /*

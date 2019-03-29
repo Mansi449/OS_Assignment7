@@ -7,8 +7,8 @@
 #include <semaphore.h>
 
 /*
-use the lpthread flag with gcc to compile this code
-~$ gcc -q1.c -lpthread
+	use the lpthread flag with gcc to compile this code
+	~$ gcc q1.c -lpthread
 */
 
 pthread_t *producers;

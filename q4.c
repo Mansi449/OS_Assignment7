@@ -9,8 +9,8 @@
 #define N 5 //number of free seats
 
 /*
-use the lpthread flag with gcc to compile this code
-~$ gcc -q4.c -lpthread
+    use the lpthread flag with gcc to compile this code
+    ~$ gcc q4.c -lpthread
 */
 
 time_t replace_time;/*process execution time*/
