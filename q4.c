@@ -96,3 +96,42 @@ void *customer(void *arg)
         sleep(1);
     }
 }
+
+//////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////
+/*
+    OUTPUT
+*/
+//////////////////////
+////////////////
+/*
+    Customer process: add count of customers 
+    number of customers waiting for haircut are:1
+
+    Barber is cutting hair
+    number of customers waiting for haircut are:0
+
+    Customer process: add count of customers 
+    number of customers waiting for haircut are:1
+
+    Customer process: add count of customers 
+    number of customers waiting for haircut are:2
+
+    Barber is cutting hair
+    number of customers waiting for haircut are:1
+
+    Customer process: add count of customers 
+    number of customers waiting for haircut are:2
+
+    Barber is cutting hair
+    number of customers waiting for haircut are:1
+
+    Customer process: add count of customers 
+    number of customers waiting for haircut are:2
+
+    Barber is cutting hair
+    number of customers waiting for haircut are:1
+
+    Barber is cutting hair
+    number of customers waiting for haircut are:0
+*/

@@ -146,3 +146,72 @@ int main(void){
 
 	return 0;
 }
+
+//////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////
+/*
+	OUTPUT
+*/
+//////////////////////
+////////////////
+/*
+	Enter the number of Producers:5
+	Enter the number of Consumers:3
+	Enter buffer capacity:10
+	Producer 1 produced 19 
+	Producer 2 produced 6 
+	Producer 3 produced 17 
+	Producer 4 produced 27 
+	Producer 5 produced 24 
+	Buffer:19 6 17 27 24 
+	Consumer 6 consumed 24 
+	Current buffer len: 4
+	Buffer:19 6 17 27 
+	Consumer 5 consumed 27 
+	Current buffer len: 3
+	Buffer:19 6 17 
+	Consumer 4 consumed 17 
+	Current buffer len: 2
+	Producer 2 produced 24 
+	Buffer:19 6 24 
+	Consumer 4 consumed 24 
+	Current buffer len: 2
+	Producer 5 produced 15 
+	Producer 2 produced 3 
+	Buffer:19 6 
+	Consumer 3 consumed 6 
+	Current buffer len: 1
+	Producer 1 produced 18 
+	Producer 3 produced 29 
+	Producer 4 produced 16 
+	Buffer:19 15 3 18 29 16 
+	Consumer 7 consumed 16 
+	Current buffer len: 5
+	Producer 5 produced 31 
+	Buffer:19 15 3 18 29 31 
+	Consumer 7 consumed 31 
+	Current buffer len: 5
+	Buffer:19 15 3 18 29 
+	Consumer 6 consumed 29 
+	Current buffer len: 4
+	Producer 1 produced 2 
+	Producer 4 produced 39 
+	Producer 2 produced 17 
+	Producer 5 produced 12 
+	Producer 3 produced 31 
+	Producer 4 produced 27 
+	Producer 1 produced 30 
+	Producer 2 produced 23 
+	Producer 5 produced 7 
+	Producer 4 produced 31 
+	Buffer:19 15 3 18 39 2 17 12 31 27 
+	Consumer 11 consumed 27 
+	Current buffer len: 9
+	Buffer:19 15 3 18 39 2 17 12 31 30 
+	Consumer 11 consumed 30 
+	Current buffer len: 9
+	Producer 3 produced 7 
+	Buffer:19 15 3 18 39 2 17 12 31 23 
+	Consumer 11 consumed 23 
+	Current buffer len: 9
+*/

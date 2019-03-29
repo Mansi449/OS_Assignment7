@@ -202,3 +202,61 @@ int main(int argc, char* argv[])
 
     return 0;
 }
+
+//////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////
+/*
+    OUTPUT
+*/
+//////////////////////
+////////////////
+/*
+    smoker with match is now smoking..
+    smoker with match is now smoking..
+    smoker with match is now smoking..
+    smoker with paper is now smoking..
+    smoker with paper is now smoking..
+    smoker with paper is now smoking..
+    smoker with paper is now smoking..
+    smoker with paper is now smoking..
+    smoker with paper is now smoking..
+    smoker with paper is now smoking..
+    smoker with paper is now smoking..
+    smoker with paper is now smoking..
+    smoker with paper is now smoking..
+    smoker with paper is now smoking..
+    smoker with paper is now smoking..
+    smoker with paper is now smoking..
+    smoker with paper is now smoking..
+    smoker with paper is now smoking..
+    smoker with paper is now smoking..
+    smoker with paper is now smoking..
+    smoker with paper is now smoking..
+    smoker with paper is now smoking..
+    smoker with paper is now smoking..
+    smoker with paper is now smoking..
+    smoker with paper is now smoking..
+    smoker with paper is now smoking..
+    smoker with paper is now smoking..
+    smoker with paper is now smoking..
+    smoker with paper is now smoking..
+    smoker with paper is now smoking..
+    smoker with tobaco is now smoking..
+    smoker with tobaco is now smoking..
+    smoker with tobaco is now smoking..
+    smoker with tobaco is now smoking..
+    smoker with tobaco is now smoking..
+    smoker with tobaco is now smoking..
+    smoker with tobaco is now smoking..
+    smoker with tobaco is now smoking..
+    smoker with tobaco is now smoking..
+    smoker with tobaco is now smoking..
+    smoker with tobaco is now smoking..
+    smoker with tobaco is now smoking..
+    smoker with tobaco is now smoking..
+    smoker with tobaco is now smoking..
+    smoker with tobaco is now smoking..
+    smoker with tobaco is now smoking..
+    smoker with tobaco is now smoking..
+    smoker with tobaco is now smoking..
+*/
